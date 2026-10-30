@@ -1,16 +1,3 @@
-html {
-  background-color: grey;
-}
-
-body {
-  font-size: 18px;
-  font-family: Raleway;
-  margin: 0 auto;
-  width: 1100px;
-  padding: 0;
-  background-color: white;
-}
-
 .header {
   margin: 0 auto;
   padding: 92px 50px 96px;
@@ -21,10 +8,8 @@ body {
 
 .header__menu {
   font-weight: 400;
-  font-style: Regular;
   font-size: 18px;
   line-height: 100%;
-  letter-spacing: 0%;
 }
 
 .header__links-list {
@@ -36,7 +21,7 @@ body {
   list-style: circle;
 }
 
-.header__links-list-item_no-bullit {
+.header__links-list-item:first-of-type {
   list-style: none;
   text-decoration: none;
 }
@@ -67,12 +52,10 @@ body {
 .address {
   width: 240px;
   justify-self: end;
-  font-family: Raleway;
   font-weight: 400;
   font-style: normal;
   font-size: 18px;
   line-height: 24.3px;
-  letter-spacing: 0%;
   display: flex;
   flex-direction: column;
 }
@@ -100,14 +83,12 @@ body {
 }
 
 .cover {
-  padding-left: 50px;
-  padding-right: 50px;
+  padding: 0 50px 50px 50px;
   margin: 0 auto;
   background-image: url("../images/cover.jpg");
   background-position: center;
   background-size: cover;
   position: relative;
-  min-height: 757px;
 }
 
 .overlay {
@@ -124,9 +105,8 @@ body {
 .cover__title {
   padding-top: 165px;
   font-weight: 700;
-  font-style: Bold;
   font-size: 100px;
-  letter-spacing: 30%;
+  letter-spacing: 0.3em;
   text-transform: uppercase;
   line-height: 1.15;
   color: rgba(255, 255, 255, 1);
@@ -170,10 +150,8 @@ body {
 }
 
 .cover__description-text {
-  font-style: Regular;
   font-size: 22px;
   line-height: 28px;
-  letter-spacing: 0%;
   text-transform: uppercase;
   color: #ffffff;
   word-spacing: 19px;
@@ -200,7 +178,6 @@ body {
 .lots__heading {
   color: black;
   font-weight: 700;
-  font-style: Bold;
   font-size: 40px;
   text-transform: uppercase;
   padding: 0 0 30px 40px;
@@ -251,12 +228,9 @@ body {
 }
 
 .card__title {
-  font-family: Raleway;
   font-weight: 700;
-  font-style: Bold;
   font-size: 22px;
   line-height: 120%;
-  letter-spacing: 0%;
   text-transform: uppercase;
   text-decoration: underline;
   text-decoration-style: solid;
@@ -267,12 +241,9 @@ body {
 }
 
 .card__text {
-  font-family: Raleway;
   font-weight: 400;
-  font-style: Regular;
   font-size: 20px;
   line-height: 120%;
-  letter-spacing: 0%;
   z-index: 2;
   position: relative;
 }
@@ -319,7 +290,6 @@ body {
   font-weight: 700;
   font-size: 40px;
   line-height: 100%;
-  letter-spacing: 0%;
   text-transform: uppercase;
   align-self: center;
   padding-left: 25px;
@@ -355,7 +325,6 @@ body {
   font-weight: 400;
   font-size: 18px;
   line-height: 100%;
-  letter-spacing: 0%;
   text-align: center;
 }
 
